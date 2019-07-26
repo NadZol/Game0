@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btnDown = (ImageButton) findViewById(R.id.btnDown);
         btnDown.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                cat.setY(cat.getY() - 10);
+                cat.setY(cat.getY() + 10);
             }
         });
 
